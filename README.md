@@ -7,8 +7,17 @@ This project is a **Library Management System** built using **Python**, **Tkinte
 It provides an easy-to-use graphical interface for managing book records, including adding new books, issuing and returning books, and updating book details.  
 
 
+## 🎯 Objectives
 
-## 🚀 Features
+- Manage library books efficiently
+- Store book information using SQLite
+- Issue and return books
+- Provide an easy-to-use GUI
+- Perform CRUD operations on book records
+
+
+
+## ✨ Features
 
 - Add new books to the database  
 - Update existing book details  
@@ -57,14 +66,25 @@ Library-Management-System/
 
 
 
-## 🧩 How to Run
+## 🛠 Installation & Setup
 
-1. **Install Python** (version 3.8 or above).  
-2. Install Tkinter (comes pre-installed with Python).  
-3. Save the above code as `library_management.py`.  
-4. Open terminal or command prompt and run:
-   ```bash
-   python library_management.py
+1. Clone the repository
+
+```bash
+git clone https://github.com/Viiddzzz/Library-Management-System.git
+```
+
+2. Navigate to the project
+
+```bash
+cd Library-Management-System
+```
+
+3. Run the application
+
+```bash
+python library_management.py
+```
 
 
 **🗄️ Database Info**
@@ -83,7 +103,12 @@ BK_STATUS	TEXT	Available / Issued
 
 CARD_ID	TEXT	Issuer’s Card ID
 
+## ✅ Results
 
+- Successfully manages library records
+- Supports issue and return operations
+- Stores data permanently using SQLite
+- Easy-to-use graphical interface
 
 **🧰 Future Enhancements**
 
@@ -97,8 +122,10 @@ Integrate with QR/barcode system
 
 
 
-👨‍💻 Author Vidyashree s
+👩‍💻 Author
 
-🎓 Student Project | Python Tkinter GUI App
+Vidyashree S
+
+Aspiring Data Analyst | Python Developer
 
 📧 vidyaa1103@gmail.com
